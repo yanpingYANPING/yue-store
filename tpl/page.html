@@ -1,0 +1,12 @@
+<div ng-include="'tpl/include/header.html'"></div>
+<ion-content class="has-header has-footer">
+<div class="list list-inset"  ng-repeat="temp in pageList track by $index">
+    <a href="#/yueDetail/{{temp.did}}" class="item item-thumbnail-left item-text-wrap">
+        <img ng-src="{{temp.img_sm}}" alt=""/>
+        <h2>{{temp.name}}</h2>
+        <p>{{temp.detail}}</p>
+        <p>￥{{temp.price}}</p>
+    </a>
+</div>
+</ion-content>
+<div ng-include="'tpl/include/footer.html'"></div>
