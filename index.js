@@ -12,7 +12,7 @@ const product=require("./product");
 
 var app = express(); //请求处理函数
 console.log("hello!!!");
-http.createServer(app).listen(5050);
+http.createServer(app).listen(7341);
 
 /**处理静态资源请求**/
 app.use(express.static('./'));
