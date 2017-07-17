@@ -5,8 +5,8 @@ const mysql = require('mysql');
 
 module.exports = mysql.createPool({
     host: '127.0.0.1',
-    user: 'root',
-    password: '',
+    user: 'yue',
+    password: 'yue',
     database: 'yueStore',
     port: 3306,
     connectionLimit: 5
